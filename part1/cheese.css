@@ -5,8 +5,8 @@
 
 body {
     font-family: Cambria, serif;
-    color: Yellow;
-    line-height:1;
+    color: brown;
+    line-height:1.6;
     max-width: 1000px;
     margin: 0 auto;
     padding: 1rem;
@@ -33,13 +33,13 @@ blockquote {
     padding: 1rem;
 }
 a:hover {
-        color: blue;
+        color: darkblue;
 }
 a:focus, input:focus, button:focus {
-        color: blue;
-        outline: 2px solid white;
+        color: indigo;
+        outline: 2px solid blueviolet;
 }
 #warning {
-    background-color: darkred; 
+    background-color: orange; 
     /* This value wins because CSS is read from top to bottom. */
 }
