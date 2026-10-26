@@ -1,4 +1,3 @@
-# cse134b-hw3
 | Field | Value |
 |---|---|
 | Repository URL | https://github.com/c2lugo/cse134b-hw3 |
