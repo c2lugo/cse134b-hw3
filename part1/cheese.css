@@ -1,0 +1,45 @@
+/* 
+   Name: Carlos Lugo
+   Repository: https://github.com/c2lugo/cse134b-hw3
+ */
+
+body {
+    font-family: Cambria, serif;
+    color: Yellow;
+    line-height:1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+}
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+
+}
+.latin {
+    font-style: italic;
+}
+#warning {
+    background-color: red;
+}
+
+blockquote {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+a:hover {
+        color: blue;
+}
+a:focus, input:focus, button:focus {
+        color: blue;
+        outline: 2px solid white;
+}
+#warning {
+    background-color: darkred; 
+    /* This value wins because CSS is read from top to bottom. */
+}
