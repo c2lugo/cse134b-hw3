@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Experiments > Carlos Lugo</title>
+	</head>
+	<body>
+        <header>
+            <h1>Experiments</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume and Contact</a></li>
+                    <li><a href="experiments.html">Experiments</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Experiment Tags</h2>
+                <ol>
+                    <li>Audio testing</li>
+                    <li>Video testing</li>
+                    <li>Canvas drawing</li>
+                </ol>
+
+            <h3>Audio Player</h3>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Player</h3>
+            <video controls width="320">
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <h3>Canvas Element</h3>
+            <!-- border style -->
+            <canvas id="demoCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+            
+            <!-- <15 lines of js -->
+            <script>
+                const canvas = document.getElementById('demoCanvas');
+                const ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'black';
+                ctx.fillRect(50, 25, 100, 50);
+            </script>
+
+            <h3>Template Tag</h3>
+            <p>Below is a hidden template tag. It won't show on the screen.</p>
+            <template>
+                <div>This content is inert and hidden by default.</div>
+            </template>
+            </section>
+            <hr>
+            <section>
+                <h2>Embedded Content</h2>
+                <!-- iframe -->
+                <iframe src="index.html" width="400" height="300" title="Embedded Home Page"></iframe>
+            </section>
+            <hr>
+        </main>
+	</body>
+</html>
